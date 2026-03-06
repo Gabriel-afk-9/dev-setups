@@ -1,0 +1,6 @@
+mkdir project;cd project
+npm init -y
+npm install -D typescript @types/node --save
+npx tsc --init
+mkdir src;echo
+'console.log("Hello TS")'>src/index.ts
